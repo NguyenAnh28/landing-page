@@ -1,0 +1,56 @@
+.top-section {
+    background: #1F2937;
+}
+
+.outer-header-flexbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.left-half {
+    display: flex;
+    flex: 4;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.right-half {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    gap: 20px
+}
+
+
+
+
+
+
+.outer-main-flexbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid blue      ;
+}
+
+.main-left .main-right{
+    flex: 1;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.item {
+    border: 2px solid red;
+    font-family: 'Roboto', fallback-font, sans-serif;
+    color: white;
+}
